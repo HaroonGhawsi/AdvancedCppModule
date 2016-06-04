@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1465043456 source:/home/haroonghawsi/Desktop/cppTestfolder/AdvancedC++LecturePractice/Repetition1/Repetition1/main.cpp
+	<memory>
+	"person.h"
+
+1465043145 /home/haroonghawsi/Desktop/cppTestfolder/AdvancedC++LecturePractice/Repetition1/Repetition1/include/person.h
+	<iostream>
+	<string>
+
