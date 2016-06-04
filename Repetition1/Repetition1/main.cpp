@@ -15,14 +15,12 @@ class Room{
 
         : m_name(name), m_location(location), m_responsiblePerson(){;}
 
-void setResponsiblePerson(std::shared_ptr<Person> const &person){
+        void setResponsiblePerson(std::shared_ptr<Person> const &person){
+        m_responsiblePerson = person;
+        }
 
-    m_responsiblePerson = person;
-}
-void dump(std::ostream &os) const{
-
-    std::shared_ptr<Person> ptr = m_responsiblePerson;
-
+        void dump(std::ostream &os) const{
+        std::shared_ptr<Person> ptr = m_responsiblePerson;
 
     if(ptr){
 

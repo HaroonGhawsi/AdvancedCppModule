@@ -22,14 +22,14 @@ class Person
         void dump(std::ostream &os) const{
 
             os << "Person: " << std::endl;
-            os << " Name: " << std::endl;
-            os << " Phone: " << std::endl;
+            os << " Name: " << m_name << std::endl;
+            os << " Phone: " << m_phone << std::endl;
         }
+
     protected:
     private:
 
     std::string m_name;
     std::string m_phone;
 };
-
 #endif // PERSON_H
